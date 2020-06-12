@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EmulatedComponent } from './emulated/emulated.component';
+import { ShadowDomComponent } from './shadow-dom/shadow-dom.component';
+import { NoneComponent } from './none/none.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmulatedComponent,
+    ShadowDomComponent,
+    NoneComponent
   ],
   imports: [
     BrowserModule,
